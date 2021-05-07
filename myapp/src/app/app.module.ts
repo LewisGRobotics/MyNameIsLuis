@@ -9,6 +9,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SoftwareComponent } from './software/software.component';
 import { HomeComponent } from './home/home.component';
+import { QAndAComponent } from './q-and-a/q-and-a.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     ContactMeComponent,
     ExperienceComponent,
     SoftwareComponent,
-    HomeComponent
+    HomeComponent,
+    QAndAComponent
   ],
   imports: [
     BrowserModule,
