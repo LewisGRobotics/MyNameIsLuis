@@ -1,0 +1,31 @@
+:root {
+    --nicewhite: #ffffff;
+    --niceblue: #1f6f8b;
+    --nicegrey: #99a8b2;
+    --nicebrown:#e6d5b8;
+    --niceblack: #1C2B2D;
+  
+    
+    --nicedarkbrown:#665538;
+    --nicered: #8b1f2d;
+    --nicegreen: #1f8b2d;
+  }
+  
+.navigationButton{
+    display: inline-block;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	height: 5.4rem;
+	line-height: 5.4rem;
+	padding: 0 3rem;
+	margin: 0 .3rem 1.2rem 0;
+	background: #1f6f8b;
+	color: #e6d5b8;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	border: none;
+}

@@ -5,10 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SoftwareComponent } from './software/software.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactMeComponent,
+    ExperienceComponent,
+    SoftwareComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
