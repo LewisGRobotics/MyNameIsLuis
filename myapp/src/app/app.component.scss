@@ -19,18 +19,19 @@
 
 .routerButtons{
 	margin: 5px;
+	width: 100vw;
 }
 
 .routerButton{
     display: inline-block;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 1.4rem;
+	font-size: 1.65rem;
 	text-transform: uppercase;
-	letter-spacing: .3rem;
-	height: 5.4rem;
-	line-height: 5.4rem;
-	padding: 0 3rem;
-	margin: 0 .3rem 1.2rem 0;
+	letter-spacing: .5rem;
+	height: 6vh;
+	line-height: 6vh;
+	padding: 0 1.5rem;
+	margin: 0 1rem 2vh 0;
 	background: #29195e;
 	color: #eeeeee;
 	text-decoration: none;
