@@ -4,6 +4,7 @@
     --nicegrey: #99a8b2;
     --nicebrown:#e6d5b8;
     --niceblack: #1C2B2D;
+	--nicepurple: #51338a;
   
     
     --nicedarkbrown:#665538;
@@ -11,8 +12,9 @@
     --nicegreen: #1f8b2d;
 }
 
-.upperDiv{
-	margin: 10px;
+.headerImage{
+	width: 95vw;
+	max-width: 1220px;
 }
 
 .routerButtons{
@@ -29,8 +31,8 @@
 	line-height: 5.4rem;
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
-	background: #1f6f8b;
-	color: #e6d5b8;
+	background: #29195e;
+	color: #eeeeee;
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
