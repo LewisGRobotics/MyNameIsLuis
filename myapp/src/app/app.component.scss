@@ -9,9 +9,17 @@
     --nicedarkbrown:#665538;
     --nicered: #8b1f2d;
     --nicegreen: #1f8b2d;
-  }
-  
-.navigationButton{
+}
+
+.upperDiv{
+	margin: 10px;
+}
+
+.routerButtons{
+	margin: 5px;
+}
+
+.routerButton{
     display: inline-block;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.4rem;
@@ -26,6 +34,4 @@
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
-	white-space: nowrap;
-	border: none;
 }

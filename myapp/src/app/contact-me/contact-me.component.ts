@@ -16,15 +16,16 @@ export class ContactMeComponent implements OnInit {
 
   onSubmit(contactForm: NgForm) {
     if (true) {
-      const email = contactForm.value;
+      const form = contactForm.value;
       this.httpService.postRequest('https://formspree.io/f/mpzkqedj',
-        { name: email.name, replyto: email.email, message: email.messages },
+        { name: form.name, replyto: form.email, message: form.messages },
         { 'headers': { 'Content-Type': 'application/json' } }).subscribe(
-          response => {
-            console.log(response);
-          }
+            response => {
+              console.log(response);
+              alert("Thank you for your message. I'll reply shortly.")
+            }
         );
     }
+    
   }
-
 }

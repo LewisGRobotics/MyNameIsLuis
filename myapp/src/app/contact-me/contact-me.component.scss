@@ -1,8 +1,25 @@
-.contact{
-    width: 100;
-}
-
 .form{
     display:flex;
     flex-direction:column;
+}
+
+.nameField{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.emailField{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.messageField{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 30vw;
+    height: 30vh;
+}
+
+.upperDiv{
+	margin: 10px;
 }

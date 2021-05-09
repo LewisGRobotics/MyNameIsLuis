@@ -1,22 +1,14 @@
-<h1>Contact me</h1>
-<div class="contact">
-  <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="form">
-    <tr>
-      <input type="text" placeholder="Name" name="name" ngModel required #name="ngModel">
-    </tr>
-    <tr>
-      <input type="text" placeholder="Email" email name="email" ngModel required #email="ngModel">
-    </tr>
-    <tr>
-      <textarea placeholder="Message" name="messages" ngModel required #messages="ngModel"></textarea>
-    </tr>
-    <tr>
+<div class="upperDiv">
+  <h1>Contact me</h1>
+  <div class="contact">
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+      <label>Name</label><br>
+      <input type="text" placeholder="Name" name="name" ngModel required #name="ngModel" class="nameField"><br>
+      <label>Email</label><br>
+      <input type="text" placeholder="Email" email name="email" ngModel required #email="ngModel" class="emailField"><br>
+      <label>Message</label><br>
+      <textarea placeholder="Message" name="messages" ngModel required #messages="ngModel" class="messageField"></textarea><br>
       <input type="submit" value="Send">
-    </tr>    
-  </form>
+    </form>
+  </div>  
 </div>
-
-<hr/>
-<footer>
-  <p>&copy; Luis García Montañés | 2021 </p>
-</footer>
