@@ -11,6 +11,8 @@ export class ContactMeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  sendMailFeedback = "Thank you for your message. I'll reply shortly.";
   
   constructor(private httpService: HttpService){}
 
@@ -22,7 +24,7 @@ export class ContactMeComponent implements OnInit {
         { 'headers': { 'Content-Type': 'application/json' } }).subscribe(
             response => {
               console.log(response);
-              alert("Thank you for your message. I'll reply shortly.")
+              alert(this.sendMailFeedback);
             }
         );
     }
